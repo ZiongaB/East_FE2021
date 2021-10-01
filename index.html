@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Bandsite</title>
+		<link href="StyleSheet.css" rel="stylesheet">
+	</head>
+	<body> 
+		<div id=header> 
+<!--- Wanted to get a seperate background color for the header but it didn't work for some reason--->
+			<h1>Hooby Crew</h1>
+			<div id="nav">
+<!---Links that take you to different points on the page or to the other page of the two--->
+				<ul>
+					<li><a href="ExamHome.html">Home</a></li>
+					<li><a href="#AboutUS">About Us</a></li>
+					<li><a href="#InviteUS">Invite Us!</a></li>
+					<li><a href="Events.html">Events/Purchase Tickets</a></li>
+					<li><a href="#ContactUS">Contact us</a></li>
+				</ul>
+			</div>
+		</div>
+<!--- The overall way I did the layout in this next section was borrowed from an example in the book. That being said for some reason the backgrounds of each content section lost its background color at some point when I changed it and I couldn't figure out what I did so I couldn't fix it properly --->
+		<div id="content">
+			<div id="feature">
+				<img src="KidBand.jpg" width=100%>
+				<h2>Meet the Hooby Crew!</h2>
+			</div>
+<!---I seprarated the actual written content and forms into 3 sections that are side by side--->
+			<div class="article column1" id=AboutUS>
+				<p><b>About Us</b></p>
+				<p>We are a small indie band that formed when we all met in freshman year of high school! We love to play covers of 90's and early 200's punk rock songs.<br/><br/>Our members shift a lot because of school but we try to perform at any event or restuarant who will invite us!</p>
+			</div>
+<!---This section is meant to invite the user to the next page where they can suggest or invite them to a gig--->
+			<div class="article column2" id=InviteUS>
+				<p><b>Inviting Us!</b></p>
+				<p>As a small indie band we get a lot of our gigs from specific requests to attend events by our fans and event organizers.<br/>
+				<br/> If you want to invite us or purchase a ticket to one of our scheduled events, <a href="Events.html">CLICK HERE.</a> Please note that we will not take gigs in establishments that don't enforce COVID-19 mask mandates.</p>
+			</div>
+<!---This section is just a simple business contact area made from an email link and text-->
+			<div class="article column3" id=ContactUS>
+				<p><b>Contact Information</b></p>
+				<p>Please shoot us an email or contact us via phone for business issues and such</p>
+				<p>Phone Number: 1-800-HOOBY</p>
+				<p><a href="HoobyBand@fictionalbands.com">Shoot US AN EMAIL</a></p>
+			</div>
+		</div>
+		<div id="footer">
+			<p><a href="#nav">Return to the Top</a></p>
+			<p>Zachary East-NCF Front End Web Design (Exam 1)</p>
+		</div>
+	</body>
+</html>
